@@ -127,3 +127,7 @@ while (password.length < passwordLength) {
 // display the generated passowrd
 alert("Generated password: " + password);
 };
+
+// bind generatePassword function to button
+const generatePasswordButton = document.getElementById("generate-password-button");
+generatePasswordButton.addEventListener("click", generatePassword);
